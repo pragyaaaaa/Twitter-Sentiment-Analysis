@@ -1,17 +1,17 @@
-# SENTIMENT ANALYSIS IN TWITTER
+# SENTIMENT ANALYSIS ON TWITTER
 <br>
 
  ## ABSTRACT<br>
-In this project we have built a model which takes a dataset as an input andas an output gives the percentage of posive ,negative and neutral tweets in the given dataset. It is done using natural language processing library using scikit learn machine learning libraries such as textblob,etc.
+In this project, we have built a model which takes a dataset as an input and an output gives the percentage of positive, negative, and neutral tweets in the given dataset. It is done using natural language processing libraries using sci-kit learn machine learning libraries such as Textblob, etc.
 
 <br>
 
 ## NATURAL LANGUAGE PROCESSING<br>
 
-NLP is the method of interaction between humans and computers, so that computers can understand and process what the humans are trying to convey by their actions,thoughts,movements,expressions,etc. 
+NLP is the method of interaction between humans and computers so that computers can understand and process what humans are trying to convey by their actions, thoughts, movements, expressions, etc. 
 <br>
 ## SENTIMENT ANALYSIS<br>
-sentiment analysis refers to a process which is used for determining if the given information is positive , negative or neutral using computational methods .
+sentiment analysis refers to a process that is used for determining if the given information is positive, negative, or neutral using computational methods.
 <br>
 ## STEPS TO BE FOLLOWED IN NLP<br>
 
@@ -26,15 +26,15 @@ The next step in our pipeline is to break this sentence into separate words or t
 Tokenization is easy to do in English. We’ll just split apart words whenever there’s a space between them. And we’ll also treat punctuation marks as separate tokens since punctuation also has meaning.
 <br>
 Step 3: Predicting Parts of Speech for Each Token
-Here we check if the given token whether it is a noun, a verb, an adjective and so on. Knowing the role of each word in the sentence will help us start to figure out what the sentence is talking about.
+Here we check if the given token whether it is a noun, a verb, an adjective, and so on. Knowing the role of each word in the sentence will help us start to figure out what the sentence is talking about.
 <br>
 
 <br>
 
- ## LEXICON BASED APPROACH
+ ## LEXICON-BASED APPROACH
 <br>
-In this project we have used the lexicon based approach for analysing the given tweets.
-The lexicon based approach uses sentiment dictionary with opinion words and match them with the data for determining polarity. There are three techniques to construct a sentiment
-lexicon: manual construction, corpus-based methods and dictionary-based methods. The manual construction is a difficult and time-consuming task. Corpus-based methods can
-produce opinion words with relatively high accuracy. Finally, in the dictionary based techniques, the idea is to first collect a small set of opinion words manually with known orientations, and then to grow this set by searching in the WordNet dictionary for their synonyms and antonyms. 
+In this project, we have used the lexicon-based approach for analyzing the given tweets.
+The lexicon-based approach uses a sentiment dictionary with opinion words and matches them with the data for determining polarity. There are three techniques to construct a sentiment
+lexicon: manual construction, corpus-based methods, and dictionary-based methods. Manual construction is a difficult and time-consuming task. Corpus-based methods can
+produce opinion words with relatively high accuracy. Finally, in the dictionary-based techniques, the idea is to first collect a small set of opinion words manually with known orientations and then grow this set by searching in the WordNet dictionary for their synonyms and antonyms. 
 <br>
